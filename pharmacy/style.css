@@ -1,0 +1,245 @@
+/* Navbar Section Start */
+.navbar{
+    padding :20px;
+    transition: 1s;
+}
+.navbar.scroll{
+    background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
+    animation: change-gradient 10s ease-in-out infinite;
+}
+
+.navbar.scroll .nav-link:hover{
+    color: black !important;
+    /* #3498db !important; */
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: #fff !important;
+    padding-left: 100px;
+}
+body{
+    overflow-x: hidden;
+
+}
+.navbar-nav{
+    padding-left: 200px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff !important;
+    margin-left: 3px;
+}
+/* Navbar Section End */
+
+/* Header Section Start  */
+.header{
+    margin: 0;
+    padding: 0;
+}
+.header .vid-parent{
+    position: relative;
+}
+.header video{
+    height: 100%;
+    width: 100%;
+}
+.header .vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.5;
+
+
+}
+.header .vid-content{
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #fff !important;
+}
+.header .vid-content h6{
+    color: #fff !important;
+    font-style: italic;
+    font-size: 55px;
+    margin: 10px;
+    font-weight: bold;
+}
+.header .vid-content span{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+}
+.header .vid-content button{
+    width: 200px;
+    transition: 1s;
+    margin: 30px 10px;
+}
+.header .vid-content button:hover{
+    background: none;
+    color: #dc3445 !important;
+}
+/* Header Section End  */
+
+/* About Us Section Start */
+.about-us{
+    margin: 400px auto;
+}
+.about-us  .content{
+    margin: 80px auto;
+}
+.about-us .content h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    margin: 5px auto;
+}
+.about-us .content span{
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+}
+.about-us .col-sm-5 h5{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px auto;
+}
+/* .about-us .animated-text-first{
+    color: #dc3445 !important;
+    font-size: 20px !important;
+} */
+.about-us .col-sm-5 span{
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+}
+.about-us .col-sm-5 button{
+    width: 250px;
+    transition: 1s;
+    margin: 10px auto;
+}
+.about-us .col-sm-5 button:hover{
+    background: none;
+    color: #dc3445 !important;
+}
+/* About Us Section End */
+.content h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    margin: 5px auto;
+}
+.content span{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Contact us form start */
+.contact-us{
+    margin-bottom: 400px;
+}
+.contact-us .row{
+    box-shadow: 10px 10px 10px -10px
+    rgba(0, 0, 0, 0.4) , inset
+    10px 10px 10px -10px
+    rgba(0, 0, 0, 0.9) ;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+.contact-us .content h2, span{
+    margin: 10px auto !important;
+}
+.contact-us input{
+    width: 420px;
+    margin-top: 5px;
+    padding: 10px;
+    color: rgba(82, 73, 73) !important;
+    font-weight: bold;
+    font-style: italic;
+    outline: none !important;
+    border: 2px solid #ccc;
+}
+.contact-us h2{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Contact us form end */
+
+/* Popular Courses Section Start  */
+.Courses{
+    margin-bottom: 400px;
+    
+}
+.Courses .col-sm-5 h4, span{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.Courses h4{
+    font-weight: bold;
+    color: #dc3445 !important;
+}
+.Courses span{
+    font-size: 14px !important;
+}
+.Courses button{
+    width: 200px;
+    transition: 1s;
+    margin: 12px auto;
+}
+.Courses button:hover{
+    background: none;
+    color: #dc3445 !important;
+}
+/* Popular Courses Section End  */
+
+/* Our Faculty Section Start */
+.faculty{
+    margin-bottom: 400px;
+}
+.faculty .box{
+    box-shadow: 10px 10px 10px
+    -10px rgba(0, 0, 0, 0.4), inset
+    10px 10px 10px -10px rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ccc;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.faculty .box h6{
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px auto;
+    color: #dc3445;
+    font-size: 14px;
+}
+.faculty .box img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+.faculty .box span{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 10px;
+}
+/* Our Faculty Section End */
+
+  
+/* Footer Section Start */

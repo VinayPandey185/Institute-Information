@@ -1,0 +1,157 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+/* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../1.jpg");  */
+body{
+	
+	font-family: Arial, Helvetica,sans-serif;
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+} 
+
+
+.hi{
+    padding: 30px;
+	position: relative;
+	background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.container-heading{
+    margin: 0;
+}
+
+.heading_font{
+    color: #ffffff;
+	font-family: 'Pacifico', cursive;
+	font-size: 35px;
+	font-weight: normal;
+}
+.description p{
+	color: #ffffff;
+    font-style: italic;
+    font-size: 14px;
+    margin: -5px 0 0;
+}
+
+
+/* Navbar Section Start */
+.navbar{
+    padding :20px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: #fff !important;
+    padding-left: 100px;
+}
+.navbar-nav{
+    padding-left: 200px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff !important;
+    margin-left: 3px;
+}
+/* Navbar Section End */
+
+
+
+
+/* About Us Section Start */
+.about-us{
+    margin: 400px auto;
+}
+.about-us .content h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    margin: 5px auto;
+}
+
+.about-us .col-sm-5 h5{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px auto;
+}
+.about-us .col-sm-5 span{
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+.about-us .col-sm-5 button{
+    width: 250px;
+    transition: 1s;
+    margin: 10px auto;
+}
+.about-us .col-sm-5 button:hover{
+    background: none;
+    color: #dc3445 !important;
+} 
+/* About Us Section End */
+
+/* Popular Courses Section Start  */
+.Courses{
+    margin-bottom: 400px;
+    
+}
+.Courses .content h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    margin: 5px auto;
+}
+.Courses .col-sm-5 h4, span{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.Courses h4{
+    font-weight: bold;
+    color: #dc3445 !important;
+}
+.Courses span{
+    font-size: 14px !important;
+}
+.Courses button{
+    width: 200px;
+    transition: 1s;
+    margin: 12px auto;
+}
+.Courses button:hover{
+    background: none;
+    color: #dc3445 !important;
+}
+/* Popular Courses Section End  */
+
+
+.about{
+    background: url(../2.jpg);
+    background-size: cover;
+    height: 860px;
+    width: 100%;
+    font-family: 'Yusei Magic', sans-serif;
+}
